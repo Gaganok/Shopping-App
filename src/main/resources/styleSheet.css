@@ -1,0 +1,49 @@
+.label-textfield{
+}
+.label-logo{
+}
+.button-order{
+	-fx-width: 50px;
+	-fx-height: 20px;
+	-fx-base: rgb(29, 209, 161);
+}
+.button-option{
+	-fx-width: 200px;
+	-fx-height: 35px;
+}
+.button-red {
+	-fx-base: rgb(238, 82, 83);
+}
+.button-green {
+	-fx-base: rgb(29, 209, 161);
+}
+.text-input.error {
+    -fx-focus-color: #d35244;
+    -fx-faint-focus-color: #d3524422;
+
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color:
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+.combo-box.error {
+    -fx-focus-color: #d35244;
+    -fx-faint-focus-color: #d3524422;
+
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color:
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
